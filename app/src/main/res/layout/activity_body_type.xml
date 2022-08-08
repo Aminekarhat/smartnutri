@@ -6,4 +6,103 @@
     android:layout_height="match_parent"
     tools:context=".body_type">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="574dp"
+        android:layout_height="912dp"
+        android:layout_marginBottom="420dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/background" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="587dp"
+        android:layout_height="1784dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-27dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button3"
+            style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+
+            android:layout_width="334dp"
+            android:layout_height="127dp"
+            android:text="LOSE FAT"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:icon="@drawable/fattt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.274"
+            app:strokeColor="#40a144"
+            app:strokeWidth="3dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button4"
+            style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+
+            android:layout_width="334dp"
+            android:layout_height="127dp"
+            android:text="BULK"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:icon="@drawable/bulkkk"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#40a144"
+            app:strokeWidth="3dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button5"
+            style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+
+            android:layout_width="334dp"
+            android:layout_height="127dp"
+            android:text="CUT"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:icon="@drawable/cuttt"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.721"
+            app:strokeColor="#40a144"
+            app:strokeWidth="3dp" />
+
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="60dp"
+            android:text="choose your body type :"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

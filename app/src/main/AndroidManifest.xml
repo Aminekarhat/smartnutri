@@ -14,6 +14,15 @@
         android:theme="@style/Theme.Smartnutri"
         tools:targetApi="31">
         <activity
+            android:name=".fat"
+            android:exported="false" />
+        <activity
+            android:name=".cut"
+            android:exported="false" />
+        <activity
+            android:name=".bulk"
+            android:exported="false" />
+        <activity
             android:name=".body_type"
             android:exported="false" />
         <activity
