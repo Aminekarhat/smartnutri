@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Public/Documents/apps/SmartApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.169" />
+        <entry key="..\:/Users/Public/Documents/apps/SmartApp/app/src/main/res/drawable/button_custome.xml" value="0.184" />
+        <entry key="..\:/Users/Public/Documents/apps/SmartApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.184" />
+        <entry key="..\:/Users/Public/Documents/apps/SmartApp/app/src/main/res/layout/activity_body_type.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Public/Documents/apps/SmartApp/app/src/main/res/layout/activity_bulk.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Public/Documents/apps/SmartApp/app/src/main/res/layout/activity_cut.xml" value="0.2023121387283237" />
+        <entry key="..\:/Users/Public/Documents/apps/SmartApp/app/src/main/res/layout/activity_fat.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Public/Documents/apps/SmartApp/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/drawable/button_custome.xml" value="0.329" />
-        <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/drawable/custome_meal.xml" value="0.293" />
         <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/layout/activity_body_type.xml" value="0.2828096118299446" />
-        <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/layout/activity_bulk.xml" value="0.25" />
-        <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/layout/activity_cut.xml" value="0.37947122861586313" />
-        <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/layout/activity_fat.xml" value="0.25" />
+        <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/layout/activity_bulk.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/layout/activity_cut.xml" value="0.3484375" />
+        <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/layout/activity_fat.xml" value="0.358695652173913" />
         <entry key="..\:/Users/spoofy/AndroidStudioProjects/smartnutri/app/src/main/res/layout/activity_main.xml" value="0.1762917933130699" />
       </map>
     </option>
