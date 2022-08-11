@@ -31,9 +31,26 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="-76dp"
-        tools:layout_editor_absoluteY="350dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-234dp">
 
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="340dp"
+            android:layout_height="123dp"
+            android:background="@drawable/custome_meal"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.71"
+            app:srcCompat="@drawable/dinner1"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/imageButton9"
@@ -48,8 +65,25 @@
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.327"
+            app:layout_constraintVertical_bias="0.241"
             app:srcCompat="@drawable/salad_modified"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="340dp"
+            android:layout_height="123dp"
+            android:background="@drawable/custome_meal"
+            android:padding="8dp"
+            android:scaleType="fitStart"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.476"
+            app:srcCompat="@drawable/breakfast1"
             tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <TextView
@@ -57,7 +91,7 @@
             android:layout_width="161dp"
             android:layout_height="34dp"
             android:layout_marginTop="4dp"
-            android:text="Chiken Salad"
+            android:text="Chicken Salad"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             app:autoSizeTextType="uniform"
             app:layout_constraintEnd_toEndOf="@+id/imageButton9"
@@ -66,25 +100,62 @@
             app:layout_constraintTop_toTopOf="@+id/imageButton9" />
 
         <TextView
+            android:id="@+id/textView2"
+            android:layout_width="161dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="4dp"
+            android:text="Vegetarian Paleo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton9"
+            app:layout_constraintHorizontal_bias="0.804"
+            app:layout_constraintStart_toStartOf="@+id/imageButton"
+            app:layout_constraintTop_toTopOf="@+id/imageButton" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="161dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="4dp"
+            android:text="Beef Stir-Fry"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintStart_toStartOf="@+id/imageButton2"
+            app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+
+        <TextView
             android:id="@+id/textView7"
             android:layout_width="193dp"
             android:layout_height="71dp"
+            android:layout_marginStart="132dp"
             android:layout_marginTop="44dp"
             android:text="This is chicken salad the way I like it. adding and subtracting whatever makes your skirt fly up."
             app:autoSizeTextType="none"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton9"
-            app:layout_constraintHorizontal_bias="0.884"
             app:layout_constraintStart_toStartOf="@+id/imageButton9"
             app:layout_constraintTop_toTopOf="@+id/imageButton9" />
 
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="193dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="44dp"
+            android:text="this recipe make it easy to enjoy both for healty meal that are sure to satisfy anyone at your breakfast table."
+            app:autoSizeTextType="none"
+            app:layout_constraintStart_toStartOf="@+id/imageButton"
+            app:layout_constraintTop_toTopOf="@+id/imageButton" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="193dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="44dp"
+            android:text="This veggie-packed stir-fry is perfect for all those late nights when you're craving take-out food."
+            app:autoSizeTextType="none"
+            app:layout_constraintStart_toStartOf="@+id/imageButton2"
+            app:layout_constraintTop_toTopOf="@+id/imageButton2" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
