@@ -30,21 +30,25 @@
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-27dp">
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-16dp">
+
         <TextView
-            android:layout_width="196dp"
-            android:layout_height="98dp"
+            android:layout_width="416dp"
+            android:layout_height="72dp"
             android:layout_marginStart="110dp"
             android:layout_marginEnd="110dp"
-            android:layout_marginBottom="60dp"
-            android:text="choose your body type :"
+            android:layout_marginBottom="44dp"
+            android:fontFamily="sans-serif-condensed-light"
 
+            android:text="  Choose Your Body Type:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="35sp"
             app:layout_constraintBottom_toTopOf="@+id/button3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.368"
             app:layout_constraintStart_toStartOf="parent" />
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button3"
             style="@style/Widget.Material3.Button.OutlinedButton.Icon"
@@ -100,8 +104,6 @@
             app:layout_constraintVertical_bias="0.721"
             app:strokeColor="#40a144"
             app:strokeWidth="3dp" />
-
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
