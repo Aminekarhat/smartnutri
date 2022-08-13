@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".notification1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selected_time"
+        android:text="08_56_pm"
+        android:layout_marginTop="200dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="46sp"
+        />
+
+    <Button
+        android:id="@+id/Selecttime"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="36dp"
+        android:layout_marginHorizontal="26dp"
+        android:text="select_time"
+        android:textSize="26sp"/>
+    <Button
+        android:id="@+id/settime"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="36dp"
+        android:layout_marginHorizontal="26dp"
+        android:text="set_time"
+        android:textSize="26sp"/>
+    <Button
+        android:id="@+id/canceltime"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="36dp"
+        android:layout_marginHorizontal="26dp"
+        android:text="cancel_time"
+        android:textSize="26sp"/>
+
+</LinearLayout>

@@ -25,23 +25,6 @@
         tools:layout_editor_absoluteY="-234dp">
 
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/button3"
-            style="@style/Widget.Material3.Button.OutlinedButton.Icon"
-
-            android:layout_width="66dp"
-            android:layout_height="69dp"
-
-
-            android:foreground="@drawable/pluss"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.975"
-            app:strokeColor="#ffff"
-            app:strokeWidth="3dp" />
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -174,6 +157,18 @@
             app:autoSizeTextType="none"
             app:layout_constraintStart_toStartOf="@+id/imageButton2"
             app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+
+        <Button
+            android:id="@+id/botona4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.776"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.065" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

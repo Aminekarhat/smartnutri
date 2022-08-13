@@ -15,7 +15,14 @@ class cut : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_cut)
-       val botona = findViewById<ImageButton>(R.id.imageButton9)
+
+        val botona4 = findViewById<Button>(R.id.button4)
+        botona4.setOnClickListener{
+            val intent = Intent(this,notification1::class.java)
+            startActivity(intent)
+        }
+
+        val botona = findViewById<ImageButton>(R.id.imageButton9)
         botona.setOnClickListener{
             val intent = Intent(this,chicken_salad::class.java)
             startActivity(intent)
