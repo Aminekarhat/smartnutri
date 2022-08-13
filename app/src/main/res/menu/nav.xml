@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item
+     android:id="@+id/losef"
+     android:title="LOSE FAT"
+     />
+    <item
+        android:id="@+id/bulk"
+        android:title="BULK"
+        />
+    <item
+        android:id="@+id/cut"
+        android:title="CUT"
+        />
+</menu>

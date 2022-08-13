@@ -23,9 +23,7 @@
             android:name=".notification"
             android:enabled="true" />
 
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
+
         <activity
             android:name=".beef"
             android:exported="false" />
